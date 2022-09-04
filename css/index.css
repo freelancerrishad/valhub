@@ -1,0 +1,101 @@
+
+
+body{
+    background-color: #121212
+    ;
+}
+input{
+    border: none;
+}
+select{
+    border: none;
+}
+html{
+    
+    scroll-behavior: smooth;
+}
+
+.header{
+    height: 550px;
+    background-image: url(../images/home/header_background.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+svg path{
+    fill: white;
+  }
+
+.header ul li{
+    cursor: pointer;
+}
+
+.header-search{
+    width: 28%;
+    border: none;
+    background-color: black;
+}
+
+.header-search{
+    position: relative;
+}
+.search-field-image{
+    position: absolute;
+    right: 37%;
+}
+.fa-solid{
+    color: #D64933;
+    cursor: pointer;
+}
+
+/* ryu */
+.ryu{
+    background-image: url(../images/home/classifia/ryu.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* crouwn */
+.fa-crown{
+    color: #FFE600;
+    
+}
+
+/* gabrielel */
+
+.gabrielel{
+    background-image: url(../images/home/classifia/gabriel.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Tag */
+
+.tag{
+    background-image: url(../images/home/classifia/tag-background.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.novita{
+    background-image: url(../images/home/novita/bg.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 88%;
+}
+
+.fa-circle{
+    font-size: 8px;
+    text-align: center;
+}
+
+.modd{
+    width: 50%;
+}
+
+.index-modal{
+    width: 580px;
+}

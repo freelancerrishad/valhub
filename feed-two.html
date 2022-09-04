@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- Tailwind css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.2/dist/flowbite.min.css" />
+
+    <!-- my css for home -->
+    <link rel="stylesheet" href="css/home.css">
+    <title>Feed</title>
+</head>
+
+<body>
+
+    <!-- Header Start  -->
+    <header class="header flex justify-center">
+
+        <div  class="xl:w-4/6 lg:w-11/12 w-full md:px-2">
+            <nav class="bg-transparent border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+                <div class="container flex flex-wrap justify-between items-center mx-auto">
+                    <!-- Logo Start -->
+                    <a href="#" class="flex items-center">
+                        <img src="images/Logo/logo-head.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
+    
+                    </a>
+                    <!-- Logo End -->
+    
+                    <button data-collapse-toggle="navbar-default" type="button"
+                        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-default" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+    
+                    <!-- Menu Start  -->
+                    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                        <ul
+                            class="flex flex-col p-4 mt-4 bg-transparent rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 justify-center">
+                            <li>
+                                <a href="feed-two.html"
+                                    class="block py-2 pr-4 pl-3 text-white border-b-2 border-orange-600  hover:text-white hover:border-b-2 hover:border-orange-600 rounded md:bg-transparent md:p-0 "
+                                    aria-current="page">FEED</a>
+                            </li>
+    
+                            <li>
+                                <a href="home.html"
+                                    class="block py-2 pr-4 pl-3  hover:text-white hover:border-b-2 hover:border-orange-600 text-gray-400 rounded md:bg-transparent md:p-0 "
+                                    aria-current="page">HOME</a>
+                            </li>
+    
+                            <li>
+                                <a href="topStatistiche.html"
+                                    class="block py-2 pr-4 pl-3 text-gray-400 hover:text-white hover:border-b-2 hover:border-orange-600 rounded md:bg-transparent md:p-0 "
+                                    aria-current="page">STATISTICHE</a>
+                            </li>
+    
+                            <li>
+                                <a href="classifia.html"
+                                    class="block py-2 pr-4 pl-3 text-gray-400 hover:text-white hover:border-b-2 hover:border-orange-600 rounded md:bg-transparent md:p-0 "
+                                    aria-current="page">CLASSIFICA</a>
+                            </li>
+    
+                            <li>
+                                <a href="looking-for.html"
+                                    class="w-24 block py-2 pr-4 pl-3 text-gray-400 hover:text-white hover:border-b-2 hover:border-orange-600 rounded md:bg-transparent md:p-0 "
+                                    aria-current="page">LOOKING FOR</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <!-- Menu End -->
+    
+                    <!-- user and search start -->
+                    <div class="flex hidden md:block">
+    
+    
+                        <i class="fa-solid fa-magnifying-glass mr-5"></i>
+                        <i class="fa-solid fa-user"></i>
+    
+    
+    
+                    </div>
+                    <!-- User and search end -->
+    
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar start -->
+       
+        <!-- Nav End -->
+
+    </header>
+    <!-- Header End -->
+
+    <hr class="border-b border-gray-900">
+
+
+    <!-- main start -->
+
+
+    <main class="flex flex-col justify-center items-center">
+
+        <div class="xl:w-4/6 lg:w-11/12 w-full md:px-2">
+            <div class="grid md:grid-cols-2 grid-cols-1 mt-14 gap-4">
+                <div>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center ">
+                            <div>
+                                <img src="images/feed/tumblr_4d1daa14f21dda42c3a08b6e32419029_99e38b5a_250.png" alt=""
+                                    class="w-10 h-10 rounded-full">
+
+                            </div>
+                            <div>
+                                <p class="text-white font-semibold ml-5">ryu</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-check text-white text-base md:inline ml-2"></i>
+                            </div>
+                            <div class="flex items-center justify-center  ml-5">
+                                <i class="fa-solid fa-circle text-gray-400 dot-50"></i>
+                                <p class="text-gray-400 font-semibold ml-2">50 minuti fa</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-ellipsis text-gray-400"></i>
+                        </div>
+                    </div>
+
+                    <div class="md:ml-10">
+                        <div
+                            class="oggi border-l-2 border-green-500 flex justify-center items-center overflow-auto mt-1 pl-28 2xl:pl-0">
+                            <img src="images/home2/Chamber_icon.png" alt="Chamber_icon"
+                                class="2xl:w-16 2xl:h-16 w-10 h-10 rounded-full ml-14 md:ml-0">
+                            <div>
+                                <p class="text-gray-500">#1</p>
+                                <p class="text-white">Chamber</p>
+                            </div>
+                            <img src="images/home2/Radiant_Rank.webp" alt="Radiant_Rank"
+                                class="2xl:w-8 2xl:h-8 w-5 h-5 lg:mx-5 ml-2">
+                            <ul class="flex">
+                                <div class="ml-3">
+                                    <li class="text-gray-500 text-xs">Fracture</li>
+                                    <li class="text-green-500 2xl:text-xl text-xs">00:00</li>
+                                </div>
+
+                                <div class="lg:ml-16 ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs text-end">KDA</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">12/8/16</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">K/D</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">1.5</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">HS%</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">22%</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">ADR</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">168</li>
+                                </div>
+
+                            </ul>
+                        </div>
+
+                        <div
+                            class="oggi border-l-2 border-red-500 flex justify-center items-center overflow-auto mt-1  pl-28 2xl:pl-0">
+                            <img src="images/home2/Chamber_icon.png" alt="Chamber_icon"
+                                class="2xl:w-16 2xl:h-16 w-10 h-10 rounded-full ml-14 md:ml-0">
+                            <div>
+                                <p class="text-gray-500">#1</p>
+                                <p class="text-white">Chamber</p>
+                            </div>
+                            <img src="images/home2/Radiant_Rank.webp" alt="Radiant_Rank"
+                                class="2xl:w-8 2xl:h-8 w-5 h-5 lg:mx-5 ml-2">
+                            <ul class="flex">
+                                <div class="ml-3">
+                                    <li class="text-gray-500 text-xs">Fracture</li>
+                                    <li class="text-red-500 2xl:text-xl text-xs">00:00</li>
+                                </div>
+
+                                <div class="lg:ml-16 ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">KDA</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">12/8/16</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">K/D</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">1.5</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">HS%</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">22%</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">ADR</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">168</li>
+                                </div>
+
+                            </ul>
+                        </div>
+
+                        <div
+                            class="oggi border-l-2 border-green-500 flex justify-center items-center overflow-auto mt-1  pl-28 2xl:pl-0">
+                            <img src="images/home2/Chamber_icon.png" alt="Chamber_icon"
+                                class="2xl:w-16 2xl:h-16 w-10 h-10 rounded-full ml-14 md:ml-0">
+                            <div>
+                                <p class="text-gray-500">#1</p>
+                                <p class="text-white">Chamber</p>
+                            </div>
+                            <img src="images/home2/Radiant_Rank.webp" alt="Radiant_Rank"
+                                class="2xl:w-8 2xl:h-8 w-5 h-5 lg:mx-5 ml-2">
+                            <ul class="flex">
+                                <div class="ml-3">
+                                    <li class="text-gray-500 text-xs">Fracture</li>
+                                    <li class="text-green-500 2xl:text-xl text-xs">00:00</li>
+                                </div>
+
+                                <div class="lg:ml-16 ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs text-end">KDA</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">12/8/16</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">K/D</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">1.5</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">HS%</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">22%</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">ADR</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">168</li>
+                                </div>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="mt-2 flex justify-end items-center">
+                        <div class="bg-zinc-900 px-3 py-2 flex items-center rounded-xl">
+                            <img src="images/feed/1.png" alt="" class="h-7 w-7">
+                            <p class="text-gray-400 text-xs ml-3">25</p>
+                        </div>
+
+                        <div class="bg-zinc-900 px-3 py-2 flex items-center rounded-xl mx-2">
+                            <img src="images/feed/2.png" alt="" class="h-7 w-7">
+                            <p class="text-gray-400 text-xs ml-3">13</p>
+                        </div>
+
+                        <div class="bg-zinc-900 px-3 py-2 flex items-center rounded-xl">
+                            <img src="images/feed/3.jpeg" alt="" class="h-7 w-7">
+                            <p class="text-gray-400 text-xs ml-3">1</p>
+                        </div>
+                    </div>
+                    <hr class="border border-gray-900 mt-5">
+
+                    <div class="flex items-center justify-between mt-5">
+                        <div class="flex items-center ">
+                            <div>
+                                <img src="images/feed/tumblr_4d1daa14f21dda42c3a08b6e32419029_99e38b5a_250.png" alt=""
+                                    class="w-10 h-10 rounded-full">
+
+                            </div>
+                            <div>
+                                <p class="text-white font-semibold ml-5">ryu</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-check text-white text-base md:inline ml-2"></i>
+                            </div>
+                            <div class="flex items-center justify-center  ml-5">
+                                <i class="fa-solid fa-circle text-gray-400 dot-50"></i>
+                                <p class="text-gray-400 font-semibold ml-2">50 minuti fa</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-ellipsis text-gray-400"></i>
+                        </div>
+                    </div>
+
+
+
+                    <div>
+                        <div class="relative ml-10 mt-1">
+                            <img src="images/informa/ggame.png" alt="" class="rounded-xl">
+                            <div class="absolute left-0 bottom-5 flex justify-center items-center">
+                                <i class="fa-solid ml-5 fa-circle text-xs"></i>
+                                <div class="ml-5">
+                                    <p class="text-white">Titolo clip epica , no vabbe ho fatto ACE HS!!! GUARDA...</p>
+                                    <p class="text-gray-500">13 VIEWS</p>
+                                </div>
+                            </div>
+
+                            <div class="absolute right-1/2 bottom-1/2">
+                                <i class="fa-solid fa-circle-play text-white text-5xl"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-2 flex justify-end items-center">
+                        <div class="bg-zinc-900 px-3 py-2 flex items-center rounded-xl">
+                            <img src="images/feed/1.png" alt="" class="h-7 w-7">
+                            <p class="text-gray-400 text-xs ml-3">25</p>
+                        </div>
+
+                        <div class="bg-zinc-900 px-3 py-2 flex items-center rounded-xl mx-2">
+                            <img src="images/feed/2.png" alt="" class="h-7 w-7">
+                            <p class="text-gray-400 text-xs ml-3">13</p>
+                        </div>
+
+                        <div class="bg-zinc-900 px-3 py-2 flex items-center rounded-xl">
+                            <img src="images/feed/3.jpeg" alt="" class="h-7 w-7">
+                            <p class="text-gray-400 text-xs ml-3">1</p>
+                        </div>
+                    </div>
+                    <hr class="border border-gray-900 mt-5">
+                    <div class="flex items-center justify-between mt-5">
+                        <div class="flex items-center ">
+                            <div>
+                                <img src="images/feed/tumblr_4d1daa14f21dda42c3a08b6e32419029_99e38b5a_250.png" alt=""
+                                    class="w-10 h-10 rounded-full">
+
+                            </div>
+                            <div>
+                                <p class="text-white font-semibold ml-5">ryu</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-check text-white text-base md:inline ml-2"></i>
+                            </div>
+                            <div class="flex items-center justify-center  ml-5">
+                                <i class="fa-solid fa-circle text-gray-400 dot-50"></i>
+                                <p class="text-gray-400 font-semibold ml-2">50 minuti fa</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-ellipsis text-gray-400"></i>
+                        </div>
+                    </div>
+
+                    <div class="md:ml-10">
+                        <div
+                            class="oggi border-l-2 border-green-500 flex justify-center items-center overflow-auto mt-1 pl-28 2xl:pl-0">
+                            <img src="images/home2/Chamber_icon.png" alt="Chamber_icon"
+                                class="2xl:w-16 2xl:h-16 w-10 h-10 rounded-full ml-14 md:ml-0">
+                            <div>
+                                <p class="text-gray-500">#1</p>
+                                <p class="text-white">Chamber</p>
+                            </div>
+                            <img src="images/home2/Radiant_Rank.webp" alt="Radiant_Rank"
+                                class="2xl:w-8 2xl:h-8 w-5 h-5 lg:mx-5 ml-2">
+                            <ul class="flex">
+                                <div class="ml-3">
+                                    <li class="text-gray-500 text-xs">Fracture</li>
+                                    <li class="text-green-500 2xl:text-xl text-xs">00:00</li>
+                                </div>
+
+                                <div class="lg:ml-16 ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs text-end">KDA</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">12/8/16</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">K/D</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">1.5</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">HS%</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">22%</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">ADR</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">168</li>
+                                </div>
+
+                            </ul>
+                        </div>
+
+                        <div
+                            class="oggi border-l-2 border-red-500 flex justify-center items-center overflow-auto mt-1  pl-28 2xl:pl-0">
+                            <img src="images/home2/Chamber_icon.png" alt="Chamber_icon"
+                                class="2xl:w-16 2xl:h-16 w-10 h-10 rounded-full ml-14 md:ml-0">
+                            <div>
+                                <p class="text-gray-500">#1</p>
+                                <p class="text-white">Chamber</p>
+                            </div>
+                            <img src="images/home2/Radiant_Rank.webp" alt="Radiant_Rank"
+                                class="2xl:w-8 2xl:h-8 w-5 h-5 lg:mx-5 ml-2">
+                            <ul class="flex">
+                                <div class="ml-3">
+                                    <li class="text-gray-500 text-xs">Fracture</li>
+                                    <li class="text-red-500 2xl:text-xl text-xs">00:00</li>
+                                </div>
+
+                                <div class="lg:ml-16 ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">KDA</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">12/8/16</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">K/D</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">1.5</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">HS%</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">22%</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">ADR</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">168</li>
+                                </div>
+
+                            </ul>
+                        </div>
+
+                        <div
+                            class="oggi border-l-2 border-green-500 flex justify-center items-center overflow-auto mt-1  pl-28 2xl:pl-0">
+                            <img src="images/home2/Chamber_icon.png" alt="Chamber_icon"
+                                class="2xl:w-16 2xl:h-16 w-10 h-10 rounded-full ml-14 md:ml-0">
+                            <div>
+                                <p class="text-gray-500">#1</p>
+                                <p class="text-white">Chamber</p>
+                            </div>
+                            <img src="images/home2/Radiant_Rank.webp" alt="Radiant_Rank"
+                                class="2xl:w-8 2xl:h-8 w-5 h-5 lg:mx-5 ml-2">
+                            <ul class="flex">
+                                <div class="ml-3">
+                                    <li class="text-gray-500 text-xs">Fracture</li>
+                                    <li class="text-green-500 2xl:text-xl text-xs">00:00</li>
+                                </div>
+
+                                <div class="lg:ml-16 ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs text-end">KDA</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">12/8/16</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">K/D</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">1.5</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">HS%</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">22%</li>
+                                </div>
+
+                                <div class="ml-5">
+                                    <li class="text-gray-500 2xl:text-xl text-xs">ADR</li>
+                                    <li class="text-white text-xl 2xl:text-xl text-xs">168</li>
+                                </div>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="mt-2 flex justify-end items-center">
+                        <div class="bg-zinc-900 px-3 py-2 flex items-center rounded-xl">
+                            <img src="images/feed/1.png" alt="" class="h-7 w-7">
+                            <p class="text-gray-400 text-xs ml-3">25</p>
+                        </div>
+
+                        <div class="bg-zinc-900 px-3 py-2 flex items-center rounded-xl mx-2">
+                            <img src="images/feed/2.png" alt="" class="h-7 w-7">
+                            <p class="text-gray-400 text-xs ml-3">13</p>
+                        </div>
+
+                        <div class="bg-zinc-900 px-3 py-2 flex items-center rounded-xl">
+                            <img src="images/feed/3.jpeg" alt="" class="h-7 w-7">
+                            <p class="text-gray-400 text-xs ml-3">1</p>
+                        </div>
+                    </div>
+                    <hr class="border border-gray-900 mt-5">
+
+                </div>
+
+                <div class="md:ml-5">
+                    <div>
+                        <ul class="list-disc text-white text-xl font-semibold">
+                            <li>Filtra per</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <form class="flex items-center">
+
+                            <div class="relative 2xl:w-1/2 lg:w-4/6 w-full mt-1">
+
+                                <input type="text" id="voice-search"
+                                    class="bg-zinc-900 text-white text-sm rounded-md block w-full pl-3 p-2.5"
+                                    placeholder="Ricerca" required="">
+                                <div class="flex absolute inset-y-0 right-0 mr-3 items-center pl-3 pointer-events-none">
+                                    <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400"
+                                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="2xl:w-1/2 lg:w-4/6  w-full grid grid-cols-3 mt-2 gap-y-3">
+                        <div>
+                            <button
+                                class="px-5 py-2 text-white bg-zinc-900 rounded-md border border-blue-400">Seguiti</button>
+                        </div>
+                        <div>
+                            <button class="px-5 py-2 text-white bg-zinc-900 rounded-md">Tutti</button>
+                        </div>
+                        <div>
+                            <button class="px-5 py-2 text-white bg-zinc-900 rounded-md">Solo io</button>
+                        </div>
+                        <div>
+                            <button
+                                class="px-5 py-2 text-white bg-zinc-900 rounded-md border border-blue-400">Tutto</button>
+                        </div>
+                        <div>
+                            <button class="px-5 py-2 text-white bg-zinc-900 rounded-md">Match</button>
+                        </div>
+                        <div>
+                            <button class="px-5 py-2 text-white bg-zinc-900 rounded-md">Video</button>
+                        </div>
+                    </div>
+                    <!-- suggerti -->
+                    <div class="mt-14">
+                        <div>
+                            <ul class="list-disc text-white text-xl font-semibold ml-5">
+                                <li>Suggeriti</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="bg-zinc-900 rounded px-5 py-2 flex justify-between mt-5 rounded-md">
+                                <div class="flex">
+                                    <img src="images/home2/tumblr_06fb19c092a4536941adb2c399c5a266_4d36ab39_250.png"
+                                        alt="general-profile" class="h-12 w-12 rounded-full">
+                                    <div class="mx-3">
+                                        <p class="text-gray-400"> IMMORTAL 3</p>
+
+                                        <span class="text-white text-xl">000000000</span><i
+                                            class="fa-solid fa-circle-check text-white text-base md:inline ml-2"></i>
+
+
+                                    </div>
+
+                                </div>
+                                <div class="flex justify-center items-center">
+                                    <button
+                                        class="border border-red-500 text-red-500 px-7 py-2 rounded-md">Segui</button>
+
+                                </div>
+                            </div>
+
+                            <div class="bg-zinc-900 rounded px-5 py-2 flex justify-between my-1 rounded-md">
+                                <div class="flex">
+                                    <img src="images/home2/tumblr_06fb19c092a4536941adb2c399c5a266_4d36ab39_250.png"
+                                        alt="general-profile" class="h-12 w-12 rounded-full">
+                                    <div class="mx-3">
+                                        <p class="text-gray-400"> IMMORTAL 3</p>
+
+                                        <span class="text-white text-xl">000000000</span><i
+                                            class="fa-solid fa-circle-check text-white text-base md:inline ml-2"></i>
+
+
+                                    </div>
+
+                                </div>
+                                <div class="flex justify-center items-center">
+                                    <button
+                                        class="border border-red-500 text-red-500 px-7 py-2 rounded-md">Segui</button>
+
+                                </div>
+                            </div>
+
+                            <div class="bg-zinc-900 rounded px-5 py-2 flex justify-between rounded-md">
+                                <div class="flex">
+                                    <img src="images/home2/tumblr_06fb19c092a4536941adb2c399c5a266_4d36ab39_250.png"
+                                        alt="general-profile" class="h-12 w-12 rounded-full">
+                                    <div class="mx-3">
+                                        <p class="text-gray-400"> IMMORTAL 3</p>
+
+                                        <span class="text-white text-xl">000000000</span><i
+                                            class="fa-solid fa-circle-check text-white text-base md:inline ml-2"></i>
+
+
+                                    </div>
+
+                                </div>
+                                <div class="flex justify-center items-center">
+                                    <button
+                                        class="border border-red-500 text-red-500 px-7 py-2 rounded-md">Segui</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5 right-feed w-full">
+                        <div class="relative">
+                            <img src="images/feed/right-feed.PNG" alt="" class="w-full">
+                            <div class="absolute left-3 bottom-3">
+                                <img src="images/feed/qr.PNG" alt="">
+                            </div>
+                            <div class="absolute right-3 bottom-3 bg-blue-500 px-3 py-1 border border-white rounded">
+                                <p class="text-white">请你帮我预订</p>
+                            </div>
+                            <div class="absolute right-3 bottom-14 bg-blue-500 px-3 border border-white rounded flex flex-col justify-center">
+                                <i class="fa-solid fa-box text-white text-center"></i>
+                                <p class="text-white">请你帮我预订</p>
+                            </div>
+                            <div class="absolute invisible lg:visible lg:right-44 2xl:right-1/2 bottom-20 bg-zinc-900 px-3 border border-blue-500 rounded flex items-center justify-center">
+                                <i class="fa-brands fa-apple text-white text-2xl mr-2"></i>
+                                <p class="text-white">App Store</p>
+                            </div>
+                            <div class="absolute invisible lg:visible lg:right-44 2xl:right-1/2 bottom-6 bg-zinc-900 px-3 border border-blue-500 rounded flex items-center justify-center">
+                                
+                                <i class="fa-brands  fa-android text-white text-2xl mr-2"></i>
+                                <p class="text-white">Android</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        </div>
+
+        </div>
+
+    </main>
+
+    <!-- Main End -->
+
+    <!-- footer start -->
+    <footer class="flex flex-col justify-center items-center my-14 mb-14">
+        <div class="xl:w-4/6 lg:w-11/12 w-full md:px-2">
+            <div class="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 md:gap-14">
+
+                <div class="grid grid-rows-2 md:h-36 w-full">
+                    <div>
+                        <img src="images/Logo/logo.png" alt="">
+                    </div>
+                    <div>
+                        <p class="text-gray-400 mb-5 ml-5 md:ml-0">La prima hubindipendente dedicata alla communa
+                            itellia di valarant
+                        </p>
+                        <div class="flex justify-center md:justify-start">
+                            <i class="fa-brands fa-discord text-gray-400 mr-5"></i>
+                            <i class="fa-brands fa-twitter text-gray-400"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="md:grid md:grid-rows-2 h-36 flex items-center flex-col md:justify-start md:items-start mt-10 md:mt-0">
+
+                    <div>
+                        <p class="text-gray-400 text-xl">Chi siamo</p>
+                    </div>
+                    <div>
+                        <ul class="text-gray-500 flex flex-col items-center md:items-start">
+                            <li class="my-2">crediti</li>
+                            <li class="my-2">Contattaci</li>
+                            <li class="my-2">Collabara can nai</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div
+                    class="md:grid md:grid-rows-2 h-36 flex flex-col items-center md:items-start md:justify-start mt-10 md:my-0">
+
+                    <div>
+                        <p class="text-gray-400 text-xl">Termini di servizio</p>
+                    </div>
+                    <div>
+
+                        <p class="my-2 text-gray-500">plazzila sulla privacy</p>
+                        <p class="my-2 text-gray-500">Termini di utllizzo</p>
+                        <p class="my-2 text-gray-500"></p>
+
+
+                    </div>
+                </div>
+
+
+                <div
+                    class="md:grid grid-rows-2 h-36 md:col-span-3 lg:col-span-2  justify-center md:justify-start my-5 md:my-0">
+                    <div></div>
+                    <div>
+                        <p class="text-gray-400">VALHUB.gg isn't endorsed by Riot Games and doesn't reflect the views
+                            or opinions of Riot Games or anyone officially involved in producting of managing VALORANT.
+                            VALORANT and Riot Games are trademarks/ registerd trademarks of Riot Games. Inc.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <!-- tailwind script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <script src="https://unpkg.com/flowbite@1.5.2/dist/flowbite.js"></script>
+
+</body>
+
+</html>

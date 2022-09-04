@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- Tailwind css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.2/dist/flowbite.min.css" />
+
+    <!-- my css for home -->
+    <link rel="stylesheet" href="css/home.css">
+    <title>Looking For</title>
+</head>
+
+<body>
+
+    <!-- Header Start  -->
+
+    <header class="flex justify-center">
+
+        <div class="xl:w-4/6 lg:w-11/12 w-full md:px-2">
+            <nav class="bg-transparent border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+                <div class="container flex flex-wrap justify-between items-center mx-auto">
+                    <!-- Logo Start -->
+                    <a href="#" class="flex items-center">
+                        <img src="images/Logo/logo-head.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
+
+                    </a>
+                    <!-- Logo End -->
+
+                    <button data-collapse-toggle="navbar-default" type="button"
+                        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-zinc-800 dark:focus:ring-gray-600"
+                        aria-controls="navbar-default" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+
+                    <!-- Menu Start  -->
+                    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                        <ul
+                            class="flex flex-col p-4 mt-4 bg-transparent rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 justify-center">
+                            <li>
+                                <a href="feed-two.html"
+                                    class="block py-2 pr-4 pl-3 text-gray-400 hover:text-white hover:border-b-2 hover:border-orange-600 rounded md:bg-transparent md:p-0 "
+                                    aria-current="page">FEED</a>
+                            </li>
+
+                            <li>
+                                <a href="home.html"
+                                    class="block py-2 pr-4 pl-3 text-gray-400 hover:text-white hover:border-b-2 hover:border-orange-600 rounded md:bg-transparent md:p-0 "
+                                    aria-current="page">HOME</a>
+                            </li>
+
+                            <li>
+                                <a href="topStatistiche.html"
+                                    class="block py-2 pr-4 pl-3 text-gray-400 hover:text-white hover:border-b-2 hover:border-orange-600 rounded md:bg-transparent md:p-0 "
+                                    aria-current="page">STATISTICHE</a>
+                            </li>
+
+                            <li>
+                                <a href="classifia.html"
+                                    class="block py-2 pr-4 pl-3 text-gray-400 rounded md:bg-transparent md:p-0 "
+                                    aria-current="page">CLASSIFICA</a>
+                            </li>
+
+                            <li>
+                                <a href="looking-for.html"
+                                    class="w-24 block py-2 pr-4 pl-3 text-white border-b-2 border-orange-600 rounded md:bg-transparent md:p-0 "
+                                    aria-current="page">LOOKING FOR</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Menu End -->
+
+                    <!-- user and search start -->
+                    <div class="flex hidden md:block">
+
+
+                        <i class="fa-solid fa-magnifying-glass mr-5"></i>
+                        <i class="fa-solid fa-user"></i>
+
+
+
+                    </div>
+                    <!-- User and search end -->
+
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar start -->
+
+        <!-- Nav End -->
+
+    </header>
+    <!-- Header End -->
+
+    <hr class="border-b border-gray-900">
+
+
+    <!-- main start -->
+
+
+    <main class="flex flex-col justify-center items-center">
+
+        <div class="xl:w-4/6 lg:w-11/12 w-full md:px-2 h-96">
+            <div class="mt-14 mb-5 ">
+                <div class="flex flex-col md:flex-row justify-between">
+                    <ul class="flex mb-5 text-2xl list-disc ml-8">
+                        <li class="text-white">Looking for</li>
+                    </ul>
+
+                    <div class="flex flex-wrap" id="#agenti">
+
+                        <div>
+                            <form class="flex items-center">
+
+                                <div class="relative w-full">
+    
+                                    <input type="text" id="voice-search"
+                                        class=" bg-zinc-900 text-white text-sm rounded-lg block w-full pl-3 p-2.5 "
+                                        placeholder="Ricerca" required="">
+                                    <div class="flex absolute inset-y-0 right-0 mr-3 items-center pl-3 pointer-events-none">
+                                        <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400"
+                                            fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+    
+                                </div>
+    
+                            </form>
+                        </div>
+
+
+                        <div class="mt-5 md:mt-0">
+                            <select id="fracture"
+                            class="bg-zinc-900 text-white text-sm rounded-lg  block w-full p-2.5 w-36 ml-5">
+                            <option selected="">Role</option>
+
+                        </select>
+                        </div>
+
+                        <div class="flex my-5 md:my-0" id="#agenti">
+                            <div class="relative">
+                                <select id="fracture"
+                                class="bg-zinc-900 text-white text-sm rounded-lg  block w-full p-2.5 pl-8 w-36 ml-5">
+                                <option selected="">Rank</option>
+                                
+                            </select>
+                            <div class="absolute top-2 left-6">
+                                <img src="images/topStatistiche/Radiant_Rank.webp" alt="" class="w-6 h-6" >
+                            </div>
+                            </div>
+                         </div>
+
+                         <div>
+                            <button class="bg-red-500 rounded ml-5 px-5 py-2 font-bold">Aggiungiti</button>
+                         </div>
+
+
+                    </div>
+
+                </div>
+                <!-- armi end -->
+
+
+
+            </div>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <thead class="text-xs text-gray-900 dark:text-gray-400">
+                    <tr>
+
+                        <th scope="col" class="py-3 px-6 text-white align-left">
+                            Notes
+                        </th>
+                        <th scope="col" class="py-3 px-6 text-white align-left">
+                            USERNAME
+                        </th>
+                        <th scope="col" class="py-3 px-6">
+                            PUBLISHED
+                        </th>
+                        <th scope="col" class="py-3 px-6">
+                            RANK
+                        </th>
+                        <th scope="col" class="py-3 px-6">
+                            ROLE
+                        </th>
+                        <th scope="col" class="py-3 px-6">
+                            BEST AGENTS
+                        </th>
+                        <th scope="col" class="py-3 px-6">
+                            GAMES
+                        </th>
+                        <th scope="col" class="py-3 px-6">
+                            WR
+                        </th>
+                        <th scope="col" class="py-3 px-6">
+                            ADR
+                        </th>
+                        <th scope="col" class="py-3 px-6">
+                            KD
+                        </th>
+                        <th scope="col" class="py-3 px-6">
+                            HS%
+                        </th>
+                    </tr>
+                </thead>
+                <!-- table body -->
+                <tbody class="bg-zinc-900 rounded">
+                    <!-- 1st table row -->
+                    <tr class="border-2 border-neutral-900">
+                        <th scope="row"
+                            class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-solid fa-book text-gray-500"></i>
+                           
+                        </th>
+                        <th scope="row"  class="font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <img src="images/home/ryu-main.png" alt="" class="w-8 h-8 rounded-full inline">
+                            <span class="text-sm ml-2">ryu</span> <i
+                                class="fa-solid fa-circle-check text-white text-xs ml-2"></i>
+                        </th>
+                        <td class="py-4 px-6 text-xs">
+                            Pou di 30 minuti fa
+                        </td>
+                        <td class="py-4 px-6">
+                           <div class="flex items-center">
+                            <img src="images/home/rank.webp" alt="" class="w-5 h-5">
+                            <span class="ml-2 text-xs">Ascendant</span>
+                           </div>
+                        </td>
+                        <td class="py-1 px-6">
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-circle-xmark text-white text-xs"></i>
+                                <span class="ml-2 text-xs">CONTROLLER</span>
+                            </div>
+                        </td>
+
+                        <td class="py-4 px-6 text-xs relative flex">
+                            <img src="images/home/agent-01.png" alt=""
+                                class="inline-block w-10 h-10 rounded-full">
+
+                            <p class="text-green-400 absolute top-9 left-8 font-semibold	">65%</p>
+                            <img src="images/home/agent-02.png" alt=""
+                                class="inline-block w-10 h-10 rounded-full ml-1">
+
+                            <p class="text-green-400 absolute top-9 left-20 font-semibold	">55%</p>
+
+                            <img src="images/home/agent-03.png" alt=""
+                                class="inline-block w-10 h-10 rounded-full ml-3">
+
+                            <p class="text-red-400 absolute top-9 left-32 font-semibold	">41%</p>
+                        </td>
+
+                        <td class="py-4 px-6 text-xs">
+                            9000
+                        </td>
+
+                        <td class="py-4 px-6 text-xs text-red-500">
+                            60%
+                        </td>
+
+                        <td class="py-4 px-6 text-xs">
+                            250
+                        </td>
+
+                        <td class="py-4 px-6 text-xs">
+                            2.5
+                        </td>
+
+                        <td class="py-4 px-6 text-xs">
+                            22%
+                        </td>
+                    </tr>
+
+                 
+                </tbody>
+            </table>
+          </div>
+
+
+            <div class="flex justify-end mt-5">
+                <i class="fa-solid fa-play text-white text-xs play px-4 py-2 rotate-180 mr-2"></i>
+                <i class="fa-solid fa-play text-white text-xs play px-4 py-2"></i>
+            </div>
+        </div>
+
+
+    </main>
+
+    <!-- Main End -->
+
+    <!-- footer start -->
+    <footer class="flex flex-col justify-center items-center my-14 mb-14">
+        <div class="xl:w-4/6 lg:w-11/12 w-full md:px-2">
+            <div class="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 md:gap-14">
+
+                <div class="grid grid-rows-2 md:h-36 w-full">
+                    <div>
+                        <img src="images/Logo/logo.png" alt="">
+                    </div>
+                    <div>
+                        <p class="text-gray-400 mb-5 ml-5 md:ml-0">La prima hubindipendente dedicata alla communa itellia di valarant
+                        </p>
+                        <div class="flex justify-center md:justify-start">
+                            <i class="fa-brands fa-discord text-gray-400 mr-5"></i>
+                            <i class="fa-brands fa-twitter text-gray-400"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:grid md:grid-rows-2 h-36 flex items-center flex-col md:justify-start md:items-start mt-10 md:mt-0">
+
+                    <div>
+                        <p class="text-gray-400 text-xl">Chi siamo</p>
+                    </div>
+                    <div>
+                        <ul class="text-gray-500 flex flex-col items-center md:items-start">
+                            <li class="my-2">crediti</li>
+                            <li class="my-2">Contattaci</li>
+                            <li class="my-2">Collabara can nai</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="md:grid md:grid-rows-2 h-36 flex flex-col items-center md:items-start md:justify-start mt-10 md:my-0">
+
+                    <div>
+                        <p class="text-gray-400 text-xl">Termini di servizio</p>
+                    </div>
+                    <div>
+                      
+                            <p class="my-2 text-gray-500">plazzila sulla privacy</p>
+                            <p class="my-2 text-gray-500">Termini di utllizzo</p>
+                            <p class="my-2 text-gray-500"></p>
+
+                        
+                    </div>
+                </div>
+
+               
+                <div class="md:grid grid-rows-2 h-36 md:col-span-3 lg:col-span-2  justify-center md:justify-start my-5 md:my-0">
+                    <div></div>
+                    <div>
+                        <p class="text-gray-400 ">VALHUB.gg isn't endorsed by Riot Games and doesn't reflect the views
+                            or opinions of Riot Games or anyone officially involved in producting of managing VALORANT.
+                            VALORANT and Riot Games are trademarks/ registerd trademarks of Riot Games. Inc.</p>
+                    </div>
+                   
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+      <!-- modal -->
+
+    
+
+  
+  <div id="popup-modal" tabindex="-1" class="invisible md:visible overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 md:inset-0 h-modal md:h-full justify-center items-center flex" aria-modal="true" role="dialog">
+    <div class="relative p-4">
+        <div class="looking-for-modal  relative rounded-lg shadow bg-zinc-900">
+            <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white" data-modal-toggle="popup-modal">
+                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                
+            </button>
+            <div class="p-6">
+                
+                <h3 class="mb-5 text-lg font-normal text-white">Looking for</h3>
+                <div class="flex">
+                  <p class="text-gray-400"> Scegli la tipologia, ill tuo ruolo preferito e i tuoi agenti migiliori per oggiungerti alla lista di utenti nella sezione "Looking for".</p>
+                </div>
+               <div class="mt-5">
+                    <div class="grid grid-cols-2 gap-5">
+                        <div>
+                            <p class="text-gray-400">Tipologia</p>
+                            
+                        <div>
+                            <select id="fracture"
+                            class="bg-zinc-800 text-white text-sm rounded  block w-full p-2.5 mt-2 pl-6">
+                            <option selected="">Looking for team</option>
+
+                        </select>
+                        </div>
+                        </div>
+
+                        <div>
+                            <p class="text-gray-400">Ruolo</p>
+                            
+                        <div class="relative">
+                            <select id="fracture"
+                            class="bg-zinc-800 text-white text-sm rounded  block w-full p-2.5 mt-2 pl-10">
+                            <option selected="">Controller</option>
+
+                        </select>
+                        <div class="absolute top-2 left-3">
+                            <i class="fa-solid fa-baseball text-gray-400"></i>
+                        </div>
+                        </div>
+                        </div>
+
+                    </div>
+
+                    <div class="grid grid-cols-3 gap-5 mt-5">
+                        <div>
+                            <p class="text-gray-400">Agenti preferiti</p>
+                            
+                        <div class="relative">
+                            <select id="fracture"
+                            class="bg-zinc-800 text-white text-sm rounded  block w-full p-2.5 mt-2 pl-10">
+                            <option selected="">Brimstone</option>
+
+                        </select>
+                        <div class="absolute top-1 left-1">
+                            <img src="images/looking for/Astra_icon.webp" alt="" class="h-7 w-7">
+                        </div>
+                        </div>
+                        </div>
+
+                        <div>
+                            <p class="text-gray-400">Agenti preferiti</p>
+                            
+                        <div class="relative">
+                            <select id="fracture"
+                            class="bg-zinc-800 text-white text-sm rounded  block w-full p-2.5 mt-2 pl-10">
+                            <option selected="">Brimstone</option>
+
+                        </select>
+                        <div class="absolute top-1 left-1">
+                            <img src="images/looking for/Astra_icon.webp" alt="" class="h-7 w-7">
+                        </div>
+                        </div>
+                        </div>
+
+
+                        <div>
+                            <p class="text-gray-400">Agenti preferiti</p>
+                            
+                        <div class="relative">
+                            <select id="fracture"
+                            class="bg-zinc-800 text-white text-sm rounded  block w-full p-2.5 mt-2 pl-10">
+                            <option selected="">Brimstone</option>
+
+                        </select>
+                        <div class="absolute top-1 left-1">
+                            <img src="images/looking for/Astra_icon.webp" alt="" class="h-7 w-7">
+                            
+                        </div>
+                        </div>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <p class="text-gray-400 py-3">Descrizione</p>
+                        <textarea name="" id="" cols="60" rows="5" class="bg-zinc-800 border-none text-white rounded"></textarea>
+                    </div>
+
+                    <div class="flex justify-end">
+                        <button class="px-5 py-2 border rounded-md mt-5 border-blue-500 text-blue-500">Aggiungiti</button>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- tailwind script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <script src="https://unpkg.com/flowbite@1.5.2/dist/flowbite.js"></script>
+
+</body>
+
+</html>

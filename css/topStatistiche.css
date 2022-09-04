@@ -1,0 +1,85 @@
+body{
+    background-color: #121212;;
+}
+
+
+html{
+    
+    scroll-behavior: smooth;
+}
+
+
+.fa-solid{
+    color: #D64933;
+    cursor: pointer;
+}
+
+thead{
+    background-color: #1A1A1A;;
+}
+td{
+    font-size: 12px;
+    
+}
+
+.tr-1{
+    background-image: url(../images/topStatistiche/1.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tr-2{
+    background-image: url(../images/topStatistiche/2.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+
+.tr-3{
+    background-image: url(../images/topStatistiche/3.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tr-4{
+    background-image: url(../images/topStatistiche/4.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tr-5{
+    background-image: url(../images/topStatistiche/5.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tr-6{
+    background-image: url(../images/topStatistiche/6.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tr-7{
+    background-image: url(../images/topStatistiche/7.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    border: none;
+}
+select{
+    border: none;
+}

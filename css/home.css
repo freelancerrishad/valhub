@@ -1,0 +1,122 @@
+body{
+    background-color:  #121212
+    ;
+}
+
+input{
+    border: none;
+}
+select{
+    border: none;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+html{
+    
+    scroll-behavior: smooth;
+}
+
+.header{
+    height: 550px;
+    background-image: url(../images/home2/bg.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-solid{
+    color: #D64933;
+    cursor: pointer;
+}
+
+.profile-border{
+    border-color: black;
+}
+
+/* yuru */
+.yuru{
+    background-image: url(../images/home2/yoru.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+.ascent{
+    background-image: url(../images/home2/ascent.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+.operator{
+    background-image: url(../images/home2/operator.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+
+.oggi{
+    height: 100px;
+    background-color: #161616;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.mappe{
+    background-image: url(../images/home/novita/bg.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ }
+
+.play{
+    background-color: #1A1A1A;
+    border-radius: 5px;
+}
+
+.looking-for-modal{
+    width: 514px;
+    height: 571px;
+}
+
+.modal-collabara{
+    height: 430px;
+    width: 512px;
+}
+
+.btn-allega{
+    background-color: 
+    #5865F2;
+}
+
+.home-with-modal{
+    width: 650px;
+    height: 460px;
+}
+.home-with-modal2{
+    width: 650px;
+}
+
+.dot-50{
+    font-size: 5px;
+}
+
+.right-feed{
+    height: 667px;
+}
+
+.home-modal{
+    width: 650px;
+    height: 300px;
+}

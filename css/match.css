@@ -1,0 +1,71 @@
+body{
+    background-color: #121212
+    ;
+}
+
+html{
+    
+    scroll-behavior: smooth;
+}
+
+.header{
+    height: 550px;
+    background-image: url(../images/match/bg.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-solid{
+    color: #D64933;
+    cursor: pointer;
+}
+
+.profile-border{
+    border-color: black;
+}
+
+/* yuru */
+.yuru{
+    background-image: url(../images/home2/yoru.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+.ascent{
+    background-image: url(../images/home2/ascent.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+.operator{
+    background-image: url(../images/home2/operator.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+
+.oggi{
+    height: 100px;
+    background-color: #161616;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.mappe{
+    background-image: url(../images/home/novita/bg.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+
+input{
+    border: none;
+}
+select{
+    border: none;
+}
